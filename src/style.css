@@ -1,3 +1,42 @@
 body {
     background-color: gray;
 }
+
+.frame {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.frame > img {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+}
+
+#previous-img img, #next-img img {
+    
+    width: 10em;
+    height: 10em;
+}
+#current-img img{
+    width: 40em;
+    height: 40em;
+}
+
+.dots {
+    display: flex;
+    justify-content: center;
+}
+.dots > img {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
